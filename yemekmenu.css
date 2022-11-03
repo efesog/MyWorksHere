@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    width: 300px;
+    margin: 35px;
+    display: inline-block;
+}
+.menu {
+    float:left;
+    width: 280px;
+     margin-top: 7px;
+    margin-left: 10px;
+}
+.menu2 {
+    float:left;
+    width: 280px;
+     margin-top: 7px;
+    margin-left: 10px;
+}
+.menu3 {
+    float:left;
+    width: 280px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+img {
+    max-width: 150px;
+    border-radius: 15%;
+    border: 3px green solid;
+    
+}
+ .menu3 img:hover{
+    transform: translateX(50%);
+   transition: 0.2;
+   cursor: pointer;
+}
+.menu2 img:hover{
+    transform: translateX(50%);
+   transition: 0.2;
+   cursor: pointer;
+}
+.menu img:hover{
+    transform: translateX(50%);
+   transition: 0.2;
+   cursor: pointer;
+}
+.food h2{
+    color: blue;
+    text-transform: capitalize;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+}
+.container  .food >h2:before{
+    content: "";
+    position: absolute;
+    width: 65px;
+    padding: 5px;
+    background-color: rgb(154, 5, 184);
+    bottom: 0;
+    left: 30%;
+      
+}
+span{
+    float: right;
+    color: tomato;
+    margin-right: 12px;
+}

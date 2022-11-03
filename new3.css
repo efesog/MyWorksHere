@@ -1,0 +1,54 @@
+.bir {
+    background-color: rgb(25, 156, 156);
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+    color: rgb(153, 12, 12);
+    stroke: blueviolet;
+}
+h1:hover {
+    background-color: burlywood;
+}
+p{
+    color: rgb(9, 58, 7);
+    text-decoration: none;
+
+}
+.button {
+    border-radius: 10%;
+    border-style: dotted;
+    font-size: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: darksalmon;
+}
+.button:hover {
+    background-color: chartreuse;
+}
+table{
+    border: 3px solid red;
+}
+.tablo1 td{
+    background-color: antiquewhite;
+    font-weight: bolder;
+    text-align: center;
+}
+nav {
+    background-color: blueviolet;
+}
+ul {
+    background-color: aqua;
+    display: contents;
+}
+
+nav ul li{
+    display: inline;
+    margin: 15px;
+}
+nav ul li a:hover{
+    background-color: chocolate;
+}
+nav ul li a{
+    background-color: aquamarine;
+}

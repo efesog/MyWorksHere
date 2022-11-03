@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1 {
+    background-color: aquamarine;
+    grid-area: a;
+    display: none;
+}
+.box2 {
+    background-color: rgb(161, 127, 255);
+
+    grid-area: b;
+}
+.box3 {
+    background-color: rgb(153, 16, 16);
+    grid-area: c;
+}
+.box4 {
+    background-color: rgb(135, 231, 25);
+    grid-area: d;
+}
+.box5 {
+    background-color: rgb(221, 157, 20);
+    grid-area: e;
+}
+.box6 {
+    background-color: rgb(131, 136, 134);
+    grid-area: f;
+    width: 100%;
+    height: 100px;
+   
+}
+.container {
+    display: grid;
+    width: 100vw;
+    height: 900px;
+    grid-template: 125px 250px / 125px 5fr 1fr;
+    text-align: center;
+    grid-gap: 10px 12px;
+    grid-template-areas: 
+    "d b c"
+    "d e c"
+    "f f f"
+}

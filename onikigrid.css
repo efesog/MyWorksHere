@@ -1,0 +1,17 @@
+body {
+    background-color: yellowgreen;
+    display: grid;
+    grid-column:  100px 100px auto;
+    grid-column-gap: 10px;
+    grid-row: 200px auto 200px;
+    
+    
+}
+.container {
+    background-color:black;
+    
+}
+p{
+    background-color: black;
+    color: grey;
+}

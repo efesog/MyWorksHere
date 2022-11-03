@@ -1,0 +1,22 @@
+
+     body {
+        background-color: rgb(111, 129, 105);
+    }
+    div {
+        background-color: blueviolet;
+    }
+    .bir  {
+         background-color: rgb(219, 58, 192);
+    }
+    .iki {
+        background-color: brown;
+        color: rgb(3, 67, 119);
+    }
+    .uc {
+        background-color: chartreuse;
+        color: aquamarine;
+        
+    }
+    h1 {
+        border: 0.2cm solid peru ;
+    }

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(2w.jpg);
+    background: cover no-repeat;
+    position: absolute;
+
+}
+.login{
+    width: 200px;
+    height: 450px;
+    left: 50%;
+    top: 10%;
+    opacity: 0.7;
+    position: fixed;
+    background-color: rgb(10, 48, 48);
+}
+.login img{
+    width: 100px;
+    height: 120px;
+    position: relative;
+    top: -20%;
+    left: 50%;
+    border-radius: 50%;
+    
+}
+.sign{
+    background-color: tomato;
+    width: fit-content;
+    height: 250px;
+}
+.sign label{
+    margin: 3px;
+    color: greenyellow;
+}
+.sign input[type=text], [type=password]{
+    border: none;
+    border-bottom: 3px solid orchid;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+    color: rgb(104, 10, 104);
+}
+a:hover{
+    background-color: teal;
+    transition: 0.3;
+}
+h3{
+    color: tomato;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+      
+    }
+.container {
+    background-color: aqua;
+    opacity: 0.6;
+    background-image: url('doga2.jpg');
+    width: 600px;
+    height: 650px;
+    justify-content: center;
+}
+header {
+    background-color: crimson;
+    text-align: center;
+    position: relative;
+
+}
+nav {
+    background-color: blueviolet;
+        position: relative;
+    
+}
+nav ul {
+    background-color: cornflowerblue;
+    position: relative;
+}
+nav ul li {
+    background-color: darksalmon;
+    display: inline-block;
+    align-items: center;
+    margin: 25px;
+    
+}
+main {
+    background-color: brown;
+    position: relative;
+}
+aside {
+    background-color: yellow;
+    
+    display: list-item;
+    float: left;
+}
+footer {
+    background-color: coral;
+    position: relative
+};
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block
+}
+nav ul ul li {
+    display: inline;
+}
+p {
+    background-color: antiquewhite;
+    opacity: 0.9;
+    position: relative;
+    }
+p,h1 {
+    float: left;
+    position: relative;
+    left: 14%;
+}
